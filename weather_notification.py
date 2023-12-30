@@ -1,6 +1,6 @@
 import requests
 from bs4 import BeautifulSoup
-#from win10toast import ToastNotifier
+
 
 def getdata(url):
     r = requests.get(url)
